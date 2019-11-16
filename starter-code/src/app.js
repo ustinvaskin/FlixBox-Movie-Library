@@ -52,6 +52,7 @@ ReactDOM.render(
 )
 
 // Create componets and nav bar
+// Corosel for divs so you can scroll left right to go throuhg movies
 // component(navbar = filter through genere)
 // component(navbar = filter through upcoming)
 // component(navbar = filter through top movies)
