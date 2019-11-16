@@ -22,24 +22,33 @@ h2 {
 
 .Upcoming {
   display: flex;
+
 }
 
 upcoming-set { 
   margin: 10px;
+
 }
 
 .Upcoming img {
-width: 300px;
+width: 250px;
+transition: all 0.4s;
+margin-bottom: 20px;
 }
+
+.Upcoming img:hover {
+  transform: scale(1.1);
+  }
 
 .UpcomingList {
   margin: 10px;
+  
 }
 
 #title {
   font-size: 20px;
   font-weight: 700;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
   list-style: none;
   justify-content: center;
@@ -53,5 +62,9 @@ margin: 10px;
 // border-radius: 16px;
 justify-content: center;
 list-style: none;
-text-align: center;
+text-align: start;;
+}
+
+#release {
+  margin-top: 30px;
 }

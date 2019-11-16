@@ -32,9 +32,10 @@ class App extends React.Component {
               <li id="title" key={i}>{results.title}
               </li>
               <div id="overview">
+                {/* hide and show onclick */}
                 <li key={i}>{results.overview}
                 </li>
-                <li key={i}>Release date: {results.release_date}
+                <li id="release" key={i}>Release date: {results.release_date}
                 </li>
               </div>
             </div>
@@ -49,3 +50,10 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 )
+
+// Create componets and nav bar
+// component(navbar = filter through genere)
+// component(navbar = filter through upcoming)
+// component(navbar = filter through top movies)
+// component(navbar = search)
+
