@@ -26,8 +26,8 @@ Ustin Vaskin @UstinVaskin
 
 ---
 ### Technologies used:
-#### Front end:
-Technologies API, CSS, Git, GitHub, React,React Hooks, UX, Node.js, Heroku 
+
+Technologies API, CSS, Git, GitHub, React,React Hooks, UX, Node.js, Heroku, Webpack.
 
 ---
 ### Home Page:
@@ -87,8 +87,6 @@ For instance, the code would be more readable and modular, if we were to make a 
 ### Accessibility
 
 There are still a few corners of the site where we could add more error messages and redirect the user to the login page. For example, when a user is not logged in they cannot add comments, though no message informs them of this.
-
-!['Sign-Up-Flow'](https://i.imgur.com/JKZJWdY.gif)
 
 
 
