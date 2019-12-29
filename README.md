@@ -188,8 +188,7 @@ export default useMovieFetch
 
 ### Final Product
 !['Prewiew'](https://i.imgur.com/Mrq4Lqs.gif)
----
----
+
 ---
 
 !['Prewiew'](https://i.imgur.com/QUBleOU.gif)
