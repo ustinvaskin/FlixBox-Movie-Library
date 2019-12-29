@@ -2,7 +2,7 @@
 Deployed project here: 
 LINK HERE 
 
-# Start: 
+# Start 
 # Installation
     1. Clone or download the repo
     2. Run 'npm i' in the CLI
@@ -15,8 +15,11 @@ LINK HERE
 
 ## Team
 
-Sonia Choudhury @soniacweb
-Ustin Vaskin @UstinVaskin
+* ###### Sonia Choudhury 
+@soniacweb
+* ###### Ustin Vaskin 
+@UstinVaskin
+
 ---
 ## Overview 
 ##### For FilmLovers
@@ -25,10 +28,10 @@ Ustin Vaskin @UstinVaskin
 ###### A Web Site- TV & Movie Database with custom-built filters using Third-party APIs.
 
 ---
-## Technologies used:
+## Technologies used
 
 Technologies: API, CSS, Git, GitHub, React,React Hooks, UX, Node.js, Heroku 
-## Home Page:
+## Home Page
 ##### The homepage is divided into four sections: 
 ###### Header
 ###### The main hero
@@ -36,8 +39,12 @@ Technologies: API, CSS, Git, GitHub, React,React Hooks, UX, Node.js, Heroku
 ###### Popular Movies
 ---
 
-#### We used hooks to fetch movies: 
+## Wireframes
 
+!['logo'](https://i.imgur.com/WjLoP8k.png )
+
+---
+#### We used hooks to fetch movies
 
 ```
 import { useState, useEffect } from 'react'
@@ -87,7 +94,7 @@ import { POPULAR_BASE_URL, } from '../../config'
   return [{ state, loading, error }, fetchMovies]
  }
  ```
-##### Search movie function: 
+##### Search movie function
 
 ```
 const searchMovies = search => {
@@ -97,7 +104,7 @@ setSearchTerm(search)
 fetchMovies(endpoint)
 }
 ```
-### Load more movies function: 
+### Load more movies function
 
 ```
 //loadmoremovies function
@@ -116,7 +123,7 @@ fetchMovies(endPoint)
 - Our approach was to first get the key information about the movie displayed on the page.  (image, label, genre, year etc), and then render the information on the page;
 
 
-#### Render: 
+#### Render
 ```
 <Navigation movie={movie.original_title} />
 <MovieInfo movie={movie} />
@@ -132,7 +139,7 @@ revenue={movie.revenue}
 </Grid>
 
 ```
-#### Fetching a movie: 
+#### Fetching a movie
 
 ```
 export const useMovieFetch = movieId => {
@@ -179,13 +186,13 @@ export default useMovieFetch
 ---
 
 
-### Final Product: 
-!['Prewiew'](https://i.imgur.com/orLxLjs.gif)
+### Final Product
+!['Prewiew'](https://i.imgur.com/FRJxNik.gif)
 ---
 ---
 
 ## Modifications:
-Comments/ Logins, Trailer, Refactoring, Accessibility
+Filtering, Trailer, Comments/ Logins, Refactoring, Accessibility
 
 
 
