@@ -21,17 +21,25 @@ LINK HERE
 @UstinVaskin
 
 ---
-## Overview 
+### Overview 
 ##### For FilmLovers
 
----
 ###### A Web Site- TV & Movie Database with custom-built filters using Third-party APIs.
 
 ---
-## Technologies used
+### Technologies used
 
 Technologies: API, CSS, Git, GitHub, React,React Hooks, UX, Node.js, Heroku 
-## Home Page
+
+---
+
+### Componets and Elements
+
+Actor, Grid, Header, HeroImage, LoadMoreBtn, Modal, MovieInfo, MovieInfoBar, MovieThumb, Navigation, SearchBar, Spinner/Loading
+
+---
+
+### Home Page
 ##### The homepage is divided into four sections: 
 ###### Header
 ###### The main hero
@@ -39,11 +47,10 @@ Technologies: API, CSS, Git, GitHub, React,React Hooks, UX, Node.js, Heroku
 ###### Popular Movies
 ---
 
-## Wireframes
-
+### Wireframes
 !['logo'](https://i.imgur.com/WjLoP8k.png )
-
 ---
+
 #### We used hooks to fetch movies
 
 ```
@@ -94,7 +101,7 @@ import { POPULAR_BASE_URL, } from '../../config'
   return [{ state, loading, error }, fetchMovies]
  }
  ```
-##### Search movie function
+#### Search movie function
 
 ```
 const searchMovies = search => {
@@ -107,10 +114,10 @@ fetchMovies(endpoint)
 
 !['Prewiew'](https://i.imgur.com/QUBleOU.gif)
 
-### Load more movies function
+#### Load more movies function
 
 ```
-//loadmoremovies function
+
 const loadMoreMovies = () => {
 const searchEndpoint = `${SEARCH_BASE_URL}${searchTerm}&page=${currentPage + 1}`
 const popularEndpoint = `${POPULAR_BASE_URL}&page=${currentPage + 1}`
@@ -121,9 +128,9 @@ fetchMovies(endPoint)
 }
 ```
 --- 
-## Movie Show page
+### Movie Show page
 
-- Our approach was to first get the key information about the movie displayed on the page.  (image, label, genre, year etc), and then render the information on the page;
+- Our approach was to first get the key information about the movie displayed on the page.  (image, genre, year etc), and then render the information on the page;
 
 
 #### Render
@@ -195,7 +202,7 @@ export default useMovieFetch
 ---
 ---
 
-## Modifications:
+### Modifications:
 Filtering, Trailer, Comments/ Logins, Refactoring, Accessibility
 
 
