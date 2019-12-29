@@ -6,7 +6,7 @@ LINK HERE
 # Installation
     1. Clone or download the repo
     2. Run 'npm i' in the CLI
-    3. Run 'npm run start' in the CLI
+    3. Run 'npm start' in the CLI
 ---
 ## Timeframe
 6 days
