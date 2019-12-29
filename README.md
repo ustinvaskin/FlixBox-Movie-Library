@@ -104,6 +104,9 @@ setSearchTerm(search)
 fetchMovies(endpoint)
 }
 ```
+
+!['Prewiew'](https://i.imgur.com/QUBleOU.gif)
+
 ### Load more movies function
 
 ```
@@ -187,11 +190,8 @@ export default useMovieFetch
 
 
 ### Final Product
-!['Prewiew'](https://i.imgur.com/u0ZJvJ6.gif)
+!['Prewiew'](https://i.imgur.com/EsdCbP5.gif)
 
----
-
-!['Prewiew'](https://i.imgur.com/QUBleOU.gif)
 ---
 ---
 
